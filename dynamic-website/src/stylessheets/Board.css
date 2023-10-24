@@ -1,0 +1,17 @@
+
+
+.Board{
+    width: 100vw;
+    height: 84vh;
+    padding-top:2.64vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Poster{
+    width: 95vw;
+    height: 84vh;
+    border-radius: 19px;
+    display: flex;
+    justify-content: space-between;
+}

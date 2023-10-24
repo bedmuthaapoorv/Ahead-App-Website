@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+.App{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+.blackButton{
+    color: white;
+    background-color: black;
+    width: 12.7vw;
+    height: 6.4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+}
+.bigText{
+    font-size: 60px;
+    font-weight: bold;
+}
+.smallImage{
+    height:7vh;
+}
+@media screen and (max-width:875px){
+    .bigText{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width:1300px){
+    .blackButton{
+        width: 30vw;
+    }
+}

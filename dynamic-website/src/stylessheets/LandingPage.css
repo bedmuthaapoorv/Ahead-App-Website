@@ -1,0 +1,21 @@
+.LandingPage_Section{
+    width: 47.5vw;
+    height: 84vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.LandingPage_Left{
+    width: 40vw;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+@media screen and (max-width:1190px){
+    .LandingPage_Left{
+        height: 15vh;
+    }
+}

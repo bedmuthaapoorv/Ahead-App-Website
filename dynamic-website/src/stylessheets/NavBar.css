@@ -1,0 +1,21 @@
+.NavBar{
+    display: flex;
+    justify-content: space-around;
+    height: 7.31vh;
+    align-items: center;
+    padding-top:2.64vh;
+    font-weight: bold;
+}
+.NavBar_logo{
+    border-radius: 10px;
+}
+.NavBar_center{
+    display: flex;
+    width: 40vw;
+    justify-content: space-between;
+}
+@media screen and (max-width: 1325px) {
+    .NavBar_center{
+        display: none;
+    }
+}
