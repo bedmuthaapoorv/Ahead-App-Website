@@ -1,0 +1,14 @@
+.Description_Wrapper{
+    height: 50vh;
+    width:100vw;
+    display: flex;
+    align-items: center;
+}
+.Description_Rows{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+}
+.Description_RowElement{
+    width: 26.4vw;
+}
