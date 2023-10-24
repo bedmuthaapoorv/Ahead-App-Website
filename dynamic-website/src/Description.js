@@ -1,7 +1,7 @@
 import './stylessheets/Description.css'
 export default function Description(props) {
     return (
-        <div className='Description_Wrapper'>
+        <div className='Panel Description_Wrapper'>
             <div className='Description_Rows'>
                 <div className='mediumText Description_RowElement'>EQ beats IQ</div>
                 <div className='Description_RowElement'>People with high emotional intelligence (EQ)

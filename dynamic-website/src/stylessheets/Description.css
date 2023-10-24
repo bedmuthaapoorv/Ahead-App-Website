@@ -1,6 +1,4 @@
 .Description_Wrapper{
-    height: 50vh;
-    width:100vw;
     display: flex;
     align-items: center;
 }

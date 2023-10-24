@@ -13,12 +13,24 @@
     align-items: center;
     border-radius: 13px;
 }
+.Panel{
+    height: 50vh;
+    width:100vw;
+}
 .bigText{
     font-size: 60px;
     font-weight: bold;
 }
+.semiMediumText{
+    font-size: 20px;
+    font-weight: bold;
+}
 .mediumText{
     font-size: 30px;
+    font-weight: bold;
+}
+.semiBigText{
+    font-size: 45px;
     font-weight: bold;
 }
 .smallImage{
