@@ -7,8 +7,10 @@
 .blackButton{
     color: white;
     background-color: black;
-    width: 12.7vw;
-    height: 6.4vh;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,11 +97,6 @@
 @media screen and (max-width:1485px){
     .bigText{
         font-size: 40px;
-    }
-}
-@media screen and (max-width:1300px){
-    .blackButton{
-        width: 30vw;
     }
 }
 @media screen and (max-width:1300px){
