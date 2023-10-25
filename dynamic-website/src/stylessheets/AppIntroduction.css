@@ -1,7 +1,9 @@
 .AppIntroduction_Description{
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
+    width: 80vw;
 }
 .AppIntroduction_Wrapper{
     display: flex;
@@ -16,7 +18,19 @@
 }
 .AppIntroduction_Rectangle{
     background-color: white;
-    width: 56vw;
+    width: 80vh;
     height: 29vh;
     border-radius: 19px;
 }
+@media screen and (max-width: 860px){
+    .AppIntroduction_Rectangle{
+        width: 60vh;
+    }    
+}
+
+.AppIntroduction_Diagram{
+    position: relative;
+}
+/* .AppIntroduction_LargeText{
+    
+} */

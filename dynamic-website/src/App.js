@@ -7,6 +7,7 @@ import EmotionCarousal from './EmotionCarousal';
 import AboutApp from './AboutApp';
 import MotivationPage from './MotivationPage';
 import AppIntroduction from './AppIntroduction';
+import TakeTest from './TakeTest';
 
 function App() {
   const title=[
@@ -31,6 +32,7 @@ function App() {
       <Board comp={<MotivationPage />}></Board>
       <Description title={title[1]} desc1={desc1[1]} desc2={desc2[1]}></Description>
       <Board comp={<AppIntroduction />}></Board>
+      <Board comp={<TakeTest />}></Board>
     </div>
   );
 }

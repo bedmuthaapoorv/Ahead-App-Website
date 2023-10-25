@@ -71,17 +71,30 @@
     padding-bottom: 5vh;
     padding-top: 5vh;
 }
+@media screen and (max-width: 990px){
+    .BulletSection_Wrapper{
+        width: 58.7vw;
+    }
+}
+.Rectangle{
+    height: 6vh;
+    padding-left:20px;
+    padding-right:20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    float: left;
+}
 .BulletSection_TextSection{
     width: 53.7vw;
 }
-@media screen and (max-width:875px){
-    .bigText{
-        font-size: 50px;
-    }
-}
 @media screen and (max-width:1485px){
     .bigText{
-        font-size: 48px;
+        font-size: 40px;
     }
 }
 @media screen and (max-width:1300px){

@@ -11,18 +11,18 @@ export default function AppIntroduction(){
             background: '#EDF8FE'
         }}>
             <div className='AppIntroduction_Description'>
-                <div >Let your friends, family, and co-workers (anonymously) rate your social skills</div>
-                <div className='bigText'>Ever wondered what other think of you?</div>
+                <div>Let your friends, family, and co-workers (anonymously) rate your social skills</div>
+                <div className='bigText AppIntroduction_LargeText'>Ever wondered what others think of you?</div>
             </div>
             <div className='AppIntroduction_Steps'>
                 {getFlowerIcons(3)}
             </div>
             <div className='AppIntroduction_Diagram'>
                 <div className='AppIntroduction_Rectangle'></div>
-                {/* <Rectangle text={'You'}></Rectangle>
-                <Rectangle text={'Anonymous 1'}></Rectangle>
-                <Rectangle text={'Anonymous 2'}></Rectangle>
-                <Rectangle text={'Anonymous 3'}></Rectangle> */}
+                <div className='Rectangle' style={{background: '#6442EF', top: '20%', left: '-4%'}}><strong>You</strong></div>
+                <div className='Rectangle' style={{background: '#FBB136', top: '20%', left: '50%'}}><strong>Anonymous 2</strong></div>
+                <div className='Rectangle' style={{background: '#3FC2FC', top: '60%', left: '16%'}}><strong>Anonymous 1</strong></div>
+                <div className='Rectangle' style={{background: '#57C996', top: '60%', left: '80%'}}><strong>Anonymous 3</strong></div>
             </div>
         </div>
     )
