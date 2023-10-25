@@ -45,6 +45,35 @@
     align-items: center;
     color: white;
 }
+.Bullet{
+    height: 20px;
+    width: 20px;
+    background-color: #6442F0;
+    border-radius: 50%;
+}
+.ScrollableBullets_Wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    overflow-y: scroll;
+}
+.ScrollableBullets_BulletWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.BulletSection_Wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 56.7vw;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+}
+.BulletSection_TextSection{
+    width: 53.7vw;
+}
 @media screen and (max-width:875px){
     .bigText{
         font-size: 50px;

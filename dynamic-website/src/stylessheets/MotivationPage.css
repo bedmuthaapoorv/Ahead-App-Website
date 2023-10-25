@@ -1,0 +1,11 @@
+.MotivationPage_Wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+/* .MotivationPage_ScrollableBullets{
+    width: 100vw;
+    height: 79vh;
+    overflow-y: scroll;
+} */
