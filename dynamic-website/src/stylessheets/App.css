@@ -2,6 +2,7 @@
 .App{
     font-family: 'Quicksand', sans-serif;
     font-size: 20px;
+    overflow-x: hidden;
 }
 .blackButton{
     color: white;
@@ -36,9 +37,22 @@
 .smallImage{
     height:7vh;
 }
+.flowerIcon{
+    background: url('../assets/flowerIcon.svg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
 @media screen and (max-width:875px){
     .bigText{
         font-size: 50px;
+    }
+}
+@media screen and (max-width:1485px){
+    .bigText{
+        font-size: 48px;
     }
 }
 @media screen and (max-width:1300px){

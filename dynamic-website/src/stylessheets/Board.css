@@ -2,7 +2,7 @@
 
 .Board{
     width: 100vw;
-    height: 84vh;
+    height: 100vh;
     padding-top:2.64vh;
     display: flex;
     justify-content: center;

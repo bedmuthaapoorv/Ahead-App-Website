@@ -1,0 +1,35 @@
+.AboutApp_Wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.AboutApp_Element{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+}
+.AboutApp_Left{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: center;
+}
+.AboutApp_ImageComponent{
+    align-self: center;
+}
+.AboutApp_Image{
+    position: relative;
+    width: 22.8vh;
+}
+.AboutApp_Ghost{
+    position: relative;
+    height: 10.6vh;
+    left: -50%;
+    top:-20%;
+}
+.AboutApp_Flower{
+    position: relative;
+    left: 28%;
+    top: 15%;
+    z-index:1;
+}
