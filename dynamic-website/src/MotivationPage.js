@@ -28,7 +28,7 @@ export default function MotivationPage(){
                 & how we're fixing it.</div>
                 <div className="bigText">Self improvement. Ugh.</div>
             </div>
-            <ScrollableBullets labels={labels} desc={desc} scrollerHeight={79} />
+            <ScrollableBullets labels={labels} desc={desc} scrollerHeight={79} type={'bullets'} />
             {/* <div className="MotivationPage_ScrollableBullets">
             </div> */}
         </div>

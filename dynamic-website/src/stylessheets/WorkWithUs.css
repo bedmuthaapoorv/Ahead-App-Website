@@ -1,0 +1,25 @@
+.WorkWithUs_Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.WorkWithUs_Wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vw;
+    justify-content: space-between;
+}
+.WorkWithUs_Titles{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+}
+.WorkWithUs_Content{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+}
+.WorkWithUs_Logo{
+    color: #5F3FEC;
+}

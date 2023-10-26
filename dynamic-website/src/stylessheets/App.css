@@ -38,6 +38,7 @@
 }
 .smallImage{
     height:7vh;
+    border-radius: 10px;
 }
 .flowerIcon{
     background: url('../assets/flowerIcon.svg');
@@ -52,6 +53,16 @@
     width: 20px;
     background-color: #6442F0;
     border-radius: 50%;
+}
+.smallBullet{
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    border-radius: 50%;
+}
+.Bullet_Wrapper{
+    display: flex;
+    align-items: center;
 }
 .ScrollableBullets_Wrapper{
     display: flex;
@@ -93,6 +104,28 @@
 }
 .BulletSection_TextSection{
     width: 53.7vw;
+}
+.JobCard{
+    /* width: 25vw; */
+    display: flex;
+    height: 24vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF9DC;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 50vw;
+}
+.JobCard_Wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 22vh;
+}
+.Point{
+    max-width: 23vw;
+    padding-left: 10px;
 }
 @media screen and (max-width:1485px){
     .bigText{

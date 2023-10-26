@@ -1,3 +1,5 @@
+import EmotionCarousalCard from "./EmotionCarousalCard"
+
 export default function ScrollableBullets(props){
     function getBullets(){
         return props.labels.map((val, key)=>{
@@ -18,12 +20,23 @@ export default function ScrollableBullets(props){
     //         return <div className="Bullet"></div>
     //     })
     // }
+    function getCards(){
+        return props.titles.map((val, key)=>{
+            return <div style={{
+                paddingBottom:'20px'              
+            }}>
+                <EmotionCarousalCard title={val} desc={props.desc[key]} cardColor={'white'}></EmotionCarousalCard>
+            </div>
+        });
+    }
     return (
         <div className="ScrollableBullets_Wrapper" style={{
             height: props.scrollerHeight+'vh'
         }}>
             {/* <div className="ScrollableBullets_BulletWrapper">{getBulletLine()}</div> */}
-            {getBullets()}
+            <div style={{
+                marginTop: '40vh'
+            }}>{props.type==='bullets'? getBullets(): getCards()}</div>
         </div>
     )
 }

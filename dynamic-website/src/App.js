@@ -8,7 +8,9 @@ import AboutApp from './AboutApp';
 import MotivationPage from './MotivationPage';
 import AppIntroduction from './AppIntroduction';
 import TakeTest from './TakeTest';
-
+import WorkWithUs from './WorkWIthUs';
+import Vacancy from './Vacancy';
+import Footer from './Footer';
 function App() {
   const title=[
     'EQ beats IQ', 
@@ -33,6 +35,9 @@ function App() {
       <Description title={title[1]} desc1={desc1[1]} desc2={desc2[1]}></Description>
       <Board comp={<AppIntroduction />}></Board>
       <Board comp={<TakeTest />}></Board>
+      {/* <Board comp={<WorkWithUs />}></Board> */}
+      <Vacancy></Vacancy>
+      <Footer></Footer>
     </div>
   );
 }
