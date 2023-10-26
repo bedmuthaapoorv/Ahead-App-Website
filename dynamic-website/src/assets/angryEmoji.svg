@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="2048px" height="2048px" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 2048 2048"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1 {fill:none}
+    .fil2 {fill:#5D4037}
+    .fil0 {fill:#FFD54F}
+    .fil3 {fill:#5D4037;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M1024 255.999c424.155,0 768.001,343.845 768.001,768.001 0,424.155 -343.845,768.001 -768.001,768.001 -424.155,0 -768.001,-343.845 -768.001,-768.001 0,-424.155 343.845,-768.001 768.001,-768.001z"/>
+  <rect class="fil1" width="2048" height="2048"/>
+  <rect class="fil1" x="255.999" y="255.999" width="1536" height="1536"/>
+  <rect class="fil1" width="2048" height="2048"/>
+  <rect class="fil1" x="255.999" y="255.999" width="1536" height="1536"/>
+  <rect class="fil1" width="2048" height="2048"/>
+  <rect class="fil1" x="255.999" y="255.999" width="1536" height="1536"/>
+  <path class="fil2" d="M730.378 1398.72c67.9666,-250.35 568.862,-236.812 587.245,0l-587.245 0z"/>
+  <path class="fil2" d="M1279.98 724.351c44.1839,0 80.0008,35.817 80.0008,80.0008 0,44.1839 -35.817,80.0008 -80.0008,80.0008 -44.1839,0 -80.0008,-35.817 -80.0008,-80.0008 0,-44.1839 35.817,-80.0008 80.0008,-80.0008z"/>
+  <path class="fil3" d="M1362.29 646.913c-110.371,-75.841 -243.574,18.815 -221.941,133.567 91.0371,-169.369 273.187,-87.3225 221.941,-133.567z"/>
+  <path class="fil2" d="M768.025 724.351c-44.1839,0 -80.0008,35.817 -80.0008,80.0008 0,44.1839 35.817,80.0008 80.0008,80.0008 44.1839,0 80.0008,-35.817 80.0008,-80.0008 0,-44.1839 -35.817,-80.0008 -80.0008,-80.0008z"/>
+  <path class="fil3" d="M685.708 646.913c110.371,-75.841 243.574,18.815 221.941,133.567 -91.0371,-169.369 -273.187,-87.3225 -221.941,-133.567z"/>
+ </g>
+</svg>

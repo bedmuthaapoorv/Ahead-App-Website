@@ -9,6 +9,7 @@
     display: flex;
     justify-content: flex-start;
     width: 90vw;
+   
 }
 .Carousal_Wrapper{
     display: flex;
@@ -37,6 +38,16 @@
     }
     .EmotionCarousalCard_Content{
         width: 30vw;
+    }
+}
+@media screen and (min-height: 1366px){
+    .EmotionCarousalCard{
+        height: 20vh;
+    }
+}
+@media screen and (max-height:568px){
+    .EmotionCarousalCard{
+        height: 36vh;
     }
 }
 @media screen and (max-width:490px){

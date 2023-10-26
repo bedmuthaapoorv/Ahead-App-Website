@@ -13,5 +13,14 @@
     height: 84vh;
     border-radius: 19px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (min-height: 880px){
+    .Board{
+        height: 50vh;
+    }   
+    .Poster{
+        height: 45vh;
+    } 
 }

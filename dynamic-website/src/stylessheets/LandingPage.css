@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: space-around;
     flex-direction: row;
+    position: relative;
 }
 .LandingPage_Left{
     width: 40vw;
@@ -17,5 +18,37 @@
 @media screen and (max-width:1190px){
     .LandingPage_Left{
         height: 15vh;
+    }
+}
+.LandingPage_image{
+    position: relative;
+    max-width: 20vw;
+    min-width: 20vw;
+}
+.Circle{
+    position: absolute;
+    height: 50vh;
+    width: 50vh;
+    background-color: #E2DBFD;
+    border-radius: 50%;
+}
+@media screen and (max-height: 600px){
+    .Circle{
+        width: 60vh;
+        height: 60vh;
+    }
+    .LandingPage_image{
+        width: 40vh;
+    }
+}
+@media screen and (max-width: 1460px){
+    .Circle{
+        max-height: 35vw;
+        max-width: 35vw;
+
+    }
+    .LandingPage_image{
+        max-width: 30vw;
+        min-width: 20vw;
     }
 }
