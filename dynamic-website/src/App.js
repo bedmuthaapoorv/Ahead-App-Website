@@ -12,15 +12,15 @@ import WorkWithUs from './WorkWIthUs';
 import Vacancy from './Vacancy';
 import Footer from './Footer';
 function App() {
-  const title=[
-    'EQ beats IQ', 
+  const title = [
+    'EQ beats IQ',
     'Be the best you with EQ'
   ]
-  const desc1=[
+  const desc1 = [
     'People with high emotional intelligence (EQ) live more fulfilled lives. They tend to be happier and have healthier relationships',
     'Not having your own emotions under control might be holding you back'
   ]
-  const desc2=[
+  const desc2 = [
     'They are more successful in their pursuits and make for inspiring leaders.According to science, they earn $29k a year.',
     'Additionally, not understanding those of others stops you from being the best parent, friend you can be'
   ]
@@ -35,7 +35,7 @@ function App() {
       <Description title={title[1]} desc1={desc1[1]} desc2={desc2[1]}></Description>
       <Board comp={<AppIntroduction />}></Board>
       <Board comp={<TakeTest />}></Board>
-      {/* <Board comp={<WorkWithUs />}></Board> */}
+      <Board comp={<WorkWithUs />}></Board>
       <Vacancy></Vacancy>
       <Footer></Footer>
     </div>

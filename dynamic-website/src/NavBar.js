@@ -1,9 +1,9 @@
 import './stylessheets/NavBar.css'
 import appLogo from './assets/aheadApp.jpg'
-export default function NavBar(){
-    const pages=['Emotions', 'Manifesto', 'Self-awareness test', 'Work with Us']
-    function getPages(){
-        return pages.map((pageName, key)=>{
+export default function NavBar() {
+    const pages = ['Emotions', 'Manifesto', 'Self-awareness test', 'Work with Us']
+    function getPages() {
+        return pages.map((pageName, key) => {
             return (
                 <div key={key} className='NavBar_elements'>
                     {pageName}

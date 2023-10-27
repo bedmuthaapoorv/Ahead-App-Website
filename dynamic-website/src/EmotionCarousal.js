@@ -5,19 +5,19 @@ import AngryEmoji from './assets/angryEmoji2.svg'
 import Surprise from './assets/frown.svg'
 import { motion } from 'framer-motion'
 
-export default function EmotionCarousal(){
-    function getImage(emoji){
+export default function EmotionCarousal() {
+    function getImage(emoji) {
         return <img src={emoji} height={50} alt="emoji" />
     }
     return (
         <div className='Panel Carousal_Wrapper'>
             <div className="Title_Wrapper">
                 <motion.div
-                    initial={{ width: '180vw'}}
-                    whileInView={{width: '90vw'}}
-                    transition={{duration: 0.5}}
+                    initial={{ width: '180vw' }}
+                    whileInView={{ width: '90vw' }}
+                    transition={{ duration: 0.5 }}
                 >
-                    <div className="semiBigText Carousal_title">Does this sound familiar...</div>    
+                    <div className="semiBigText Carousal_title">Does this sound familiar...</div>
                 </motion.div>
             </div>
             <Carousal slides={[
@@ -37,7 +37,7 @@ export default function EmotionCarousal(){
                  and defensive, instead of staying open and 
                 working towards common ground' cardColor='#EEEBFE' />
             ]}>
-                
+
             </Carousal>
         </div>
     )

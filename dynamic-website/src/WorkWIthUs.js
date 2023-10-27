@@ -1,24 +1,24 @@
 import './stylessheets/WorkWithUs.css'
 import EmotionCarousalCard from './EmotionCarousalCard'
 import ScrollableBullets from './ScrollableBullets'
-export default function WorkWithUs(){
-    const desc=[
+export default function WorkWithUs() {
+    const desc = [
         "At ahead our goal is to make self-improvement fun and lasting. We know there's a way how to make it work, and that's what Ahead is all about",
         "Sure, you could spend ages reading books or sitting in seminars on how to become a better spouse, parent, or manager - like we did.."
-]
-    const benefitTitles=[
+    ]
+    const benefitTitles = [
         "Power through even when the going gets though",
         "Learn more about who you are",
         "Play and grow together"
     ]
-    const benefitDesc=[
+    const benefitDesc = [
         "We help you spot and work around whatever stands in the way, be it bad habits, fear, etc.",
         "We ask the right questions to help you better understand why you do things the way you do.",
         "Ahead feels like a game, not lika a chore. See yourself grow everyday towards achieving your goals!"
     ]
     return (
         <div className="Poster WorkWithUs_Container" style={{
-            background:'#F3F1FF'
+            background: '#F3F1FF'
         }}>
             <div className='WorkWithUs_Wrapper'>
                 <div className="WorkWithUs_Titles">

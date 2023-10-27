@@ -2,7 +2,7 @@ import Logo from './assets/aheadApp.jpg';
 import './stylessheets/Footer.css'
 import AppStore from './assets/app-store.svg'
 
-export default function Footer(){
+export default function Footer() {
     return (
         <div className="Panel Footer">
             <img src={Logo} alt="app logo" className='smallImage'></img>
